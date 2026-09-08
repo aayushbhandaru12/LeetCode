@@ -6,7 +6,7 @@ public:
         for (char c : s) {
             if (c == '(' || c == '{' || c == '[') {
                 st.push(c);
-            }
+            } 
             else {
                 if (st.empty()) return false;
 
