@@ -13,7 +13,7 @@ class Solution:
 
             current = current.next
 
-        # Attach the remaining nodes
+        # Attach remaining nodes
         if list1:
             current.next = list1
         else:
